@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+     <header>
+        <h1>Amigo Secreto  Yovanny Rodriguez</h1>
+     </header>
+        
+        <!-- Formulario para agregar nombres -->
+        <div>
+            <input type="text" id="nombre" placeholder="Ingresa un nombre" class="input">
+            <button id="adicionar-btn">Agrega a tu amigo</button>
+        </div>
+
+        <!-- Lista de amigos -->
+        <ul id="lista-amigos"></ul>
+
+        <!-- Botón para hacer el sorteo -->
+        <button id="sorteo-btn" disabled>Realizar Sorteo</button>
+
+        <!-- Resultado del sorteo -->
+        <div id="resultado" style="display: none;">
+            <h3>Tu Amigo Secreto es:</h3>
+            <p id="nombre-amigo"></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
